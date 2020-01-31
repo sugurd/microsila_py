@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='microsila_py',
-    version='0.1.0',
+    version='0.1.1',
     license='MIT',
     description='A python backend for microsila MCU library',
     long_description='%s\n%s' % (

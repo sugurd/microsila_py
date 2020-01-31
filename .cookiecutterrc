@@ -35,7 +35,7 @@ default_context:
     coveralls:                 'no'
     coveralls_token:           '[Required for Appveyor, take it from https://coveralls.io/github/sugurd/microsila_py]'
     distribution_name:         'microsila_py'
-    email:                     'contact me via github.com'
+    email:                     'please, use github.com'
     full_name:                 'Yuri Zappa'
     landscape:                 'no'
     license:                   'MIT license'
