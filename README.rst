@@ -10,7 +10,7 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |appveyor| |requires|
+      - | |travis| |appveyor|
         | |codecov|
     * - package
       - | |commits-since|
@@ -25,10 +25,6 @@ Overview
 .. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/sugurd/microsila_py?branch=master&svg=true
     :alt: AppVeyor Build Status
     :target: https://ci.appveyor.com/project/sugurd/microsila_py
-
-.. |requires| image:: https://requires.io/github/sugurd/microsila_py/requirements.svg?branch=master
-    :alt: Requirements Status
-    :target: https://requires.io/github/sugurd/microsila_py/requirements/?branch=master
 
 .. |codecov| image:: https://codecov.io/github/sugurd/microsila_py/coverage.svg?branch=master
     :alt: Coverage Status
@@ -88,3 +84,4 @@ Note, to combine the coverage data from all the tox environments run:
       - ::
 
             PYTEST_ADDOPTS=--cov-append tox
+
