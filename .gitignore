@@ -4,6 +4,10 @@ __pycache__
 # C extensions
 *.so
 
+# pyenv files
+.python-version
+
+
 # Packages
 *.egg
 *.egg-info

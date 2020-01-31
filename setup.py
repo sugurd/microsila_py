@@ -60,8 +60,8 @@ setup(
         'Topic :: Utilities',
     ],
     project_urls={
-        'Documentation': 'https://microsila_py.readthedocs.io/',
-        'Changelog': 'https://microsila_py.readthedocs.io/en/latest/changelog.html',
+        # 'Documentation': 'https://microsila_py.readthedocs.io/',
+        # 'Changelog': 'https://microsila_py.readthedocs.io/en/latest/changelog.html',
         'Issue Tracker': 'https://github.com/sugurd/microsila_py/issues',
     },
     keywords=[
