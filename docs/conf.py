@@ -20,7 +20,7 @@ project = 'microsila_py'
 year = '2019-2020'
 author = 'Yuri Zappa'
 copyright = '{0}, {1}'.format(year, author)
-version = release = '0.1.1'
+version = release = '0.1.2'
 
 pygments_style = 'trac'
 templates_path = ['.']

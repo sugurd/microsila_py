@@ -30,9 +30,9 @@ Overview
     :alt: Coverage Status
     :target: https://codecov.io/github/sugurd/microsila_py
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/sugurd/microsila_py/v0.1.1.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/sugurd/microsila_py/v0.1.2.svg
     :alt: Commits since latest release
-    :target: https://github.com/sugurd/microsila_py/compare/v0.1.1...master
+    :target: https://github.com/sugurd/microsila_py/compare/v0.1.2...master
 
 
 

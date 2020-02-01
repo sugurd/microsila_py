@@ -16,6 +16,12 @@ Why does this file exist, and why not put this in __main__?
 """
 import sys
 
+import microsila_py
+
+
+def print_package_version():
+    print(f"microsila_py version {microsila_py.__version__}")
+
 
 def main(argv=sys.argv):
     """
@@ -27,5 +33,17 @@ def main(argv=sys.argv):
 
     Does stuff.
     """
-    print(argv)
+    total = len(argv)
+    if not total:
+        return 0
+    if total == 1:
+        print_package_version()
+        return 0
+
+    if argv[1] == '--version':
+        print_package_version()
+    elif argv[1] == '--help':
+        print(f"microsila_py is a python backend for MCU development library")
+    else:
+        print(f"Unknown command, try '--help'")
     return 0
